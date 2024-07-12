@@ -3,7 +3,7 @@ package AdvancedExamPreparation;
 //the pawn to move captures and a message with the capture coordinates is printed. Else if they do not intersect diagonally
 //at a certain point, the first pawn to reach the last rank is promoted to a queen and an appropriate message with the coordinates
 //is printed.
-//It is presumed that the pawns always have valid indices in the matrix.
+//It is assumed that the pawns always have valid indices in the matrix.
 import java.util.Scanner;
 
 public class Pawns {
