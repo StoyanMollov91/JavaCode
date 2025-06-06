@@ -34,7 +34,7 @@ public class Pawns {
         if (Math.abs(whiteColIndex - blackColIndex) > 1 || toMeet <= 0){
             int whiteDistance = board.length - 1 - (Math.abs(whiteRowIndex - (board.length - 1)));
             int blackDistance = board.length - 1 - blackRowIndex;
-            if (whiteDistance < blackDistance){
+            if (whiteDistance <= blackDistance){
                 System.out.printf("Game over! White pawn is promoted to a queen at %s.", board[0][whiteColIndex]);
             }
             else{
